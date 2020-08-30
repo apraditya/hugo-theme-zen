@@ -1,13 +1,15 @@
 // sass-lint:disable no-color-keywords; no-color-hex
 
+@import '../../node_modules/open-color/open-color.scss';
+
 // Base colors.
-$black:                  #000;
-$nearblack:              lighten($black, 20%); // #333
-$grey-dark:              lighten($black, 40%); // #666
-$grey:                   lighten($black, 60%); // #999
-$grey-light:             lighten($black, 80%); // #ccc
-$grey-extra-light:       lighten($black, 93.33%); // #eee
-$white:                  #fff;
+$black:                  $oc-gray-9;
+$nearblack:              $oc-gray-8;
+$grey-dark:              $oc-gray-7;
+$grey:                   $oc-gray-5;
+$grey-light:             $oc-gray-3;
+$grey-extra-light:       $oc-gray-1;
+$white:                  $oc-gray-0;
 
 $blue:                   #0072b9;
 $red:                    #c00;

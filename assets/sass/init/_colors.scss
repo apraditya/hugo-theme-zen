@@ -11,21 +11,27 @@ $grey-light:             $oc-gray-3;
 $grey-extra-light:       $oc-gray-1;
 $white:                  $oc-gray-0;
 
-$blue:                   #0072b9;
-$red:                    #c00;
-$green:                  #43a808;
-$yellow:                 #fd0;
+$blue:                   #5073a5;
+$red:                    #da402f;
+$green:                  #4cbc38;
+$yellow:                 #ffbe0a;
 
 // Colors used in the main content area.
-$brand:                  $nearblack;
-$brand-alt:              $grey;
-$brand-dark:             $grey-dark;
+$brand:                  #b6783e;
+$brand-alt:              #978d72;
+$brand-dark:             #895a2f;
+$brand-darker:           #6a4624;
+$brand-near-black:       #2e1e10;
+$brand-light:            #d0a276;
+$brand-extra-light:      #e5cbb3;
+$brand-near-white:       #f5eae1;
+$brand-white:            #faf5f0;
 $text:                   $black;
-$text-bg:                $white;
+$text-bg:                $brand-white;
 $text-meta:              $grey-dark;
 
-$link:                   $black;
-$link-visited:           $black;
+$link:                   $brand-dark;
+$link-visited:           $brand-darker;
 $link-hover:             $brand;
 $link-active:            $red;
 
@@ -37,14 +43,14 @@ $autocomplete-bg:        $text-bg;
 $autocomplete-select:    $white;
 $autocomplete-select-bg: $blue;
 
-$body-bg:                $white;
+$body-bg:                $brand-white;
 $header-bg:              $brand;
-$backdrop:               $grey-extra-light;
+$backdrop:               $brand-near-white;
 
 $mobile-menu:            $header-bg;
-$mobile-menu-cover:      rgba($black, .2);
+$mobile-menu-cover:      rgba($brand-near-black, .2);
 
-$button:                 $nearblack;
+$button:                 $brand-near-black;
 $button-disabled:        $grey;
 
 $form-error:             $red;
@@ -70,6 +76,6 @@ $error-bg:               lighten($error, 57%);
 
 $watermark:              $grey-extra-light;
 
-$headings:               $nearblack;
+$headings:               $brand-near-black;
 
-$code:                   $nearblack;
+$code:                   $brand-near-black;
